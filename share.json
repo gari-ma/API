@@ -1,0 +1,44 @@
+{
+  "status": "success",
+  "data": {
+    "stocks": [
+      {
+        "symbol": "AAPL",
+        "company_name": "Apple Inc.",
+        "current_price": 150.25,
+        "change": {
+          "value": -1.75,
+          "percentage": -1.16
+        },
+        "volume": 2543892,
+        "market_cap": 230000000000,
+        "chart_data": [148.50, 149.20, 150.25, 149.10, 151.00, 149.80]
+      },
+      {
+        "symbol": "GOOGL",
+        "company_name": "Alphabet Inc.",
+        "current_price": 2800.75,
+        "change": {
+          "value": 12.45,
+          "percentage": 0.45
+        },
+        "volume": 120487,
+        "market_cap": 1900000000000,
+        "chart_data": [2798.50, 2802.20, 2800.75, 2803.10, 2805.00, 2801.80]
+      },
+      {
+        "symbol": "MSFT",
+        "company_name": "Microsoft Corporation",
+        "current_price": 320.50,
+        "change": {
+          "value": 2.30,
+          "percentage": 0.72
+        },
+        "volume": 789654,
+        "market_cap": 2200000000000,
+        "chart_data": [318.20, 320.10, 320.50, 319.80, 321.00, 320.90]
+      }
+      // Add more stocks as needed
+    ]
+  }
+}
